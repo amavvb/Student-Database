@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bgpup.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B0000; /* Dark Red */
+    color: white;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.welcome-left {
+    flex: 1;
+}
+
+.welcome-right {
+    flex: 0 0 auto;
+    margin-left: auto; /* Pushes the logo to the right edge */
+}
+
+.welcome-right img {
+    max-width: 100px; /* Adjust the max-width as per your logo size */
+    height: auto;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile-picture-container {
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.profile-info h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-info table th,
+.profile-info table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.profile-info table th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.profile-info table td {
+    color: #555;
+}
+.red-button {
+    background-color: #8B0000; /* Dark Red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.red-button:hover {
+    background-color: #B22222; /* Firebrick */
+}
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #555;
+}

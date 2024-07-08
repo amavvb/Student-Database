@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <button id="logout-button" class="logout-button">Logout</button>
+    <div class="container">
+        <div class="welcome-header">
+            <div class="welcome-left">
+                <h1>Welcome back, Carlobert!</h1>
+            </div>
+            <div class="welcome-right">
+                <img src="logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="profile-header">
+            <div class="profile-picture-container">
+                <img id="profile-picture" src="carlo.jpeg.jpg" alt="Profile Picture">
+            </div>
+            <h2 id="student-name">Carlobert B. Cate</h2>
+        </div>
+        <div class="profile-info">
+            <h2>Student Information</h2>
+            <table>
+                <tr>
+                    <th>Roll Number:</th>
+                    <td id="roll-number">2022-00273-MR-0</td>
+                </tr>
+                <tr>
+                    <th>Batch:</th>
+                    <td id="batch">2024</td>
+                </tr>
+                <tr>
+                    <th>Program:</th>
+                    <td id="program">Diploma in Information Technology</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td id="email">carlobertcate@gmail.com</td>
+                </tr>
+            </table>
+            <h2>Academic Information</h2>
+            <table>
+                <tr>
+                    <th>Elementary:</th>
+                    <td id="elementary">[Your Elementary School]</td>
+                </tr>
+                <tr>
+                    <th>Junior High:</th>
+                    <td id="junior-high">[Your Junior High School]</td>
+                </tr>
+                <tr>
+                    <th>Senior High:</th>
+                    <td id="senior-high">[Your Senior High School]</td>
+                </tr>
+                <tr>
+                    <th>College:</th>
+                    <td id="college">[Your College]</td>
+                </tr>
+            </table>
+            <button id="edit-button" class="red-button">Edit Profile</button>
+        </div>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+</html>
