@@ -322,3 +322,8 @@ function viewStudent(studentId) {
 window.onload = function() {
     renderStudentList();
 };
+// admin.js
+document.getElementById('logout-button').addEventListener('click', function() {
+    // Redirect to the login page
+    window.location.href = 'index.html';
+});

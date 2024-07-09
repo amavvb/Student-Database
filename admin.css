@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #8B0000;)
+    background-color: #8B0000;
     margin: 0;
     padding: 0;
 }
@@ -108,20 +108,4 @@ button.add-student-button {
 
 button.add-student-button:hover {
     background-color: #489;
-}
-.logout-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.logout-button:hover {
-    background-color: #555;
 }
