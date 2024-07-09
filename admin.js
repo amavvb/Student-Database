@@ -1,8 +1,3 @@
-document.getElementById('logout-button').addEventListener('click', function() {
-    // Redirect to the login page
-    window.location.href = 'index.html';
-});
-
 const students = [
     { id: 1, name: "Carlobert B. Cate", rollNumber: "2022-00273-MR-0", batch: "2024", class: "Information Technology", gender: "Male", picture: "carlo.jpeg.jpg" },
     { id: 2, name: "Arman Marc Adriel G. Dolorito", rollNumber: "2022-00532-MR-0", batch: "2024", class: "Information Technology", gender: "Male", picture: "ama.jpeg.jpg" },
