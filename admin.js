@@ -322,3 +322,9 @@ function viewStudent(studentId) {
 window.onload = function() {
     renderStudentList();
 };
+
+    const logoutButton = document.getElementById("logout-button");
+    logoutButton.addEventListener("click", function() {
+        window.location.href = "index.html";
+    });
+});
